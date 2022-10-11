@@ -1,12 +1,9 @@
 package com.brankosaponjic.mastructmultipletypesofobjectstocreateoneobject.player;
 
-import com.brankosaponjic.mastructmultipletypesofobjectstocreateoneobject.equipment.ColorType;
 import com.brankosaponjic.mastructmultipletypesofobjectstocreateoneobject.equipment.Equipment;
 import com.brankosaponjic.mastructmultipletypesofobjectstocreateoneobject.person.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-import org.mapstruct.ValueMapping;
-import org.mapstruct.ValueMappings;
 
 @Mapper(uses = {MyDateMapper.class}, componentModel = "spring")
 public interface ItalianFootballPlayerMapper {
